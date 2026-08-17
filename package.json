@@ -1,0 +1,28 @@
+{
+  "name": "discord-roblox-bridge",
+  "version": "1.0.0",
+  "description": "Bridge between Discord Bot, Express Web Server, and Roblox Game",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "roblox",
+    "express",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "noblox.js": "^5.2.1",
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
